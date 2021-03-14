@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/vulkan_test2.dir/main.cpp.o CMakeFiles/vulkan_test2.dir/reWindow.cpp.o CMakeFiles/vulkan_test2.dir/appInterface.cpp.o  -o vulkan_test2  -lglfw -lvulkan -ldl -lX11 -lXrandr -lXi 

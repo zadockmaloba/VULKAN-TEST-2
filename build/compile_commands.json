@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/zadock/projects/Vulkan_test2/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/vulkan_test2.dir/main.cpp.o -c /home/zadock/projects/Vulkan_test2/main.cpp",
+  "file": "/home/zadock/projects/Vulkan_test2/main.cpp"
+},
+{
+  "directory": "/home/zadock/projects/Vulkan_test2/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/vulkan_test2.dir/reWindow.cpp.o -c /home/zadock/projects/Vulkan_test2/reWindow.cpp",
+  "file": "/home/zadock/projects/Vulkan_test2/reWindow.cpp"
+},
+{
+  "directory": "/home/zadock/projects/Vulkan_test2/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/vulkan_test2.dir/appInterface.cpp.o -c /home/zadock/projects/Vulkan_test2/appInterface.cpp",
+  "file": "/home/zadock/projects/Vulkan_test2/appInterface.cpp"
+}
+]
