@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0)
 
 project(vulkan_test2)
 
-add_executable(vulkan_test2 main.cpp reWindow.cpp appInterface.cpp)
+add_executable(vulkan_test2 main.cpp reWindow.cpp appInterface.cpp pipeLines.cpp)
 
 find_package(Vulkan REQUIRED)
 find_package(glfw3 REQUIRED)

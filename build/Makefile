@@ -223,6 +223,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/vulkan_test2.dir/build.make CMakeFiles/vulkan_test2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pipeLines.o: pipeLines.cpp.o
+
+.PHONY : pipeLines.o
+
+# target to build an object file
+pipeLines.cpp.o:
+	$(MAKE) -f CMakeFiles/vulkan_test2.dir/build.make CMakeFiles/vulkan_test2.dir/pipeLines.cpp.o
+.PHONY : pipeLines.cpp.o
+
+pipeLines.i: pipeLines.cpp.i
+
+.PHONY : pipeLines.i
+
+# target to preprocess a source file
+pipeLines.cpp.i:
+	$(MAKE) -f CMakeFiles/vulkan_test2.dir/build.make CMakeFiles/vulkan_test2.dir/pipeLines.cpp.i
+.PHONY : pipeLines.cpp.i
+
+pipeLines.s: pipeLines.cpp.s
+
+.PHONY : pipeLines.s
+
+# target to generate assembly for a file
+pipeLines.cpp.s:
+	$(MAKE) -f CMakeFiles/vulkan_test2.dir/build.make CMakeFiles/vulkan_test2.dir/pipeLines.cpp.s
+.PHONY : pipeLines.cpp.s
+
 reWindow.o: reWindow.cpp.o
 
 .PHONY : reWindow.o
@@ -269,6 +296,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pipeLines.o"
+	@echo "... pipeLines.i"
+	@echo "... pipeLines.s"
 	@echo "... reWindow.o"
 	@echo "... reWindow.i"
 	@echo "... reWindow.s"

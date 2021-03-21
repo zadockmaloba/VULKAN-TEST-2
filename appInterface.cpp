@@ -1,7 +1,8 @@
 #include "appInterface.hpp"  
 	
 appInterface::appInterface()
-:appWindow(WIDTH, HEIGHT, WINID)
+:appWindow(WIDTH, HEIGHT, WINID) ,
+vrtPath("../shaders/simpl_shader.vert.spv"),frgPath("../shaders/simpl_shader.frag.spv") , m_pipeLine(vrtPath, frgPath)
 {
 	
 }

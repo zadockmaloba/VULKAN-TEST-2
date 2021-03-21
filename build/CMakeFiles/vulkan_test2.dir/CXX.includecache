@@ -13,16 +13,18 @@ appInterface.hpp
 /home/zadock/projects/Vulkan_test2/appInterface.hpp
 reWindow.hpp
 /home/zadock/projects/Vulkan_test2/reWindow.hpp
+pipeLines.hpp
+/home/zadock/projects/Vulkan_test2/pipeLines.hpp
 
-/home/zadock/projects/Vulkan_test2/main.cpp
-appInterface.hpp
-/home/zadock/projects/Vulkan_test2/appInterface.hpp
-cstdlib
+/home/zadock/projects/Vulkan_test2/pipeLines.hpp
+string
 -
-
-/home/zadock/projects/Vulkan_test2/reWindow.cpp
-reWindow.hpp
-/home/zadock/projects/Vulkan_test2/reWindow.hpp
+fstream
+-
+vector
+-
+iostream
+-
 
 /home/zadock/projects/Vulkan_test2/reWindow.hpp
 GLFW/glfw3.h
